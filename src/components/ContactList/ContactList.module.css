@@ -19,8 +19,3 @@
     width: calc((100% - 48px) / 4);
   }
 }
-
-.notFoundText {
-  font-size: 18px;
-  color: black;
-}

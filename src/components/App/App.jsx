@@ -35,8 +35,8 @@ export default function App() {
   };
 
   const deleteContact = contactId => {
-    setContacts(prevTasks => {
-      return prevTasks.filter(contact => contact.id !== contactId);
+    setContacts(prevContacts => {
+      return prevContacts.filter(contact => contact.id !== contactId);
     });
   };
 
